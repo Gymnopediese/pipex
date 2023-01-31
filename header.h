@@ -6,7 +6,7 @@
 /*   By: albaud <albaud@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/09 10:51:13 by albaud            #+#    #+#             */
-/*   Updated: 2023/01/26 15:01:23 by albaud           ###   ########.fr       */
+/*   Updated: 2023/01/31 16:08:14 by albaud           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,6 @@
 # include <sys/errno.h>
 # include <sys/types.h>
 # include <sys/wait.h>
-# include "p.h"
 
 void		error(char *message);
 

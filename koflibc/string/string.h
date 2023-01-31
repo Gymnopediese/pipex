@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   string.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: albaud <albaud@student.42lausanne.ch>      +#+  +:+       +#+        */
+/*   By: albaud <albaud@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/17 17:53:38 by albaud            #+#    #+#             */
-/*   Updated: 2022/10/31 11:44:02 by albaud           ###   ########.fr       */
+/*   Updated: 2023/01/31 16:22:24 by albaud           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int		ft_contain_subs(char *to_count, char *target);
 size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 int		ft_isnum(char *str);
 int		ft_is_str_int(char *str);
-
+char	*ft_strcpy(char *dst, const char *src);
 int		ft_start_with(char *str, char *end);
 int		ft_end_with(char *str, char *end);
 

@@ -6,12 +6,12 @@
 /*   By: albaud <albaud@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/06 11:02:15 by albaud            #+#    #+#             */
-/*   Updated: 2023/01/26 15:02:58 by albaud           ###   ########.fr       */
+/*   Updated: 2023/01/31 16:23:17 by albaud           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../header.h"
-#define ARGSERROR "pipex: usage:\tfilein cmd1 cmd2 ... cmdn fileout\n\
+#define ARGSERROR "usage:\tfilein cmd1 cmd2 ... cmdn fileout\n\
 \t\tor here_dock delimiter cmd1 cmd2 ... cmdn fileout"
 
 void	error(char *message)
